@@ -265,3 +265,19 @@
     </svg>
   </a>
 </
+
+</a>
+</footer>
+
+<script>
+function toggleAbstract(btn) {
+  const abs = btn.closest('.pub-entry').querySelector('.pub-abstract');
+  if (abs) {
+    abs.classList.toggle('open');
+    btn.textContent = abs.classList.contains('open') ? 'Hide abstract' : 'Abstract';
+  }
+}
+</script>
+
+</body>
+</html>
